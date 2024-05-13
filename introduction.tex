@@ -1,0 +1,76 @@
+\chapter{Introduction}
+\label{sec:introduction}
+
+This is a template for the Computer Science Master Theses at DIBRIS,
+University of Genoa. It uses the \xspace{\LaTeX} class \texttt{masterthesis.cls} by
+Davide Ancona. We will use this template to discuss what is generally expected in the
+structure of a Master Thesis. While reading academic documents, you will find that
+they generally follow a similar structure.
+
+This structure is generally good for research documents, in which your main goal is to do
+something new. In other cases (e.g., the goal of your thesis is to review a topic and provide
+an understanding of the field), a different structure may be more desirable. In any case,
+discuss the structure of your thesis with your advisor.
+
+We are writing a scientific document, and we should take into account that skepticism
+is at the core of the scientific method. We should be skeptical of our own work, and
+we can see the thesis as an effort to persuade a skeptical reader that we have done
+a piece of work that is both useful and solid.
+
+When writing your document, don't try to reach a given number of pages. Instead, try to make it
+\emph{complete}, \emph{clear} and \emph{concise}. Try to give all the information that will
+convince the reader that your work is solid and that you have done a good job; use simple
+language and consistent terminology. If you can say something in a simpler way, do it.
+Consider that your reader will be a fellow computer scientist, but not necessarily an expert
+of your specific topic. Try to give them the information they need to understand your work, but
+do not lose your reader's time and attention with unnecessary details.
+
+Documents like this generally follow a structure like this one. It is not a strict
+requirement, but it is a good idea to follow it, as readers will find it easier to navigate it.
+Consider that in scientific documents readers will not read the whole document,
+but will look for specific pieces of information. A clear structure will help them.
+
+Chapters generally start with a short introduction, where the reader is introduced to the topic
+of the chapter. This is followed by the main content of the chapter, and then by a conclusion
+that summarizes the main points of the chapter. Note that both chapter and section titles are
+\href{https://www.grammarly.com/blog/capitalization-in-the-titles/}{capitalized}.
+
+Be extremely wary of large language models (e.g., Gemini, ChatGPT or Copilot). You take
+responsibility for the content of your thesis, and declare you have written it yourself.
+If you want a tool that helps you to write in better English, consider using something like
+\href{https://grammarly.com}{Grammarly}. It is also supported by the
+\href{https://www.overleaf.com}{Overleaf} online \latex editor.
+
+\section{Motivation}
+
+The motivation is the first important thing that you should write in your Introduction.
+You can see it as the effort to convince your reader that the problem you are addressing
+\emph{matters}. You should mention that the problem is unsolved, but you will discuss that at
+length in the Related Work section (\Cref{sec:related}, in this template). Consider that
+you're facing a skeptical reader who is asking ``is this useful?''.
+
+In some cases it will be obvious why the problem matters, but in other cases, this will be
+one of the most delicate part of your work. Of course, your advisor will help you with this.
+
+\section{Content of the Thesis}
+
+The other main goal of the Introduction is to give the reader an overview of what they will
+find in the document. There is no concept of ``spoiler'' in scientific documents: summarize
+what the reader will find in every part of the document. This will help them to navigate it
+(and to find what they're interested in, if they are reading the whole document).
+
+\section{\xspace{\LaTeX} Tricks}
+
+If you're using \LaTeX{} to write your document, you can use some tricks to make your life
+easier. This document uses the \verb|\Cref| command to reference sections, figures, and tables
+without the need to write the type of the reference, and \verb|\textcite| and
+\verb|\authorcite| to cite paper authors. You can also use \verb|\xspace| to define your macros
+and avoid spacing problems. Check the source code to see how they are used.
+
+\texttt{rubber} is a good tool to compile \latex documents. You can run the command
+\texttt{rubber -d main} to compile this document to PDF, while running \texttt{pdflatex}
+and \texttt{biber} (or \texttt{bibtex}) the right number of times.
+
+The \href{https://www.overleaf.com}{Overleaf} online editor is a good tool to synchronize with
+your advisor; it exports a git repository so that you can use it both online and offline.
+

@@ -1,0 +1,44 @@
+\documentclass{masterthesis}
+
+% the configuration is in the preamble.tex file, read it and modify it to change
+% the document appearance and included packages
+\input{preamble}
+
+% by default, we use the biblatex package to manage the bibliography
+% if you prefer to use bibtex, comment the following line and uncomment the
+% relevant lines at the end of the document
+\addbibresource{bib.bib}
+
+\begin{document}
+
+\title{Template for Computer Science Master Theses at DIBRIS}
+
+\author{Matteo Dell'Amico}
+
+\advisor{Advisor Name}
+
+\examiner{Examiner Name}
+
+\maketitle
+
+\tableofcontents
+
+\include{introduction}
+
+\include{background}
+
+\include{related}
+
+\include{method}
+
+\include{results}
+
+\include{conclusion}
+
+% Bibliography using biber; comment this and uncomment the following lines to use bibtex instead
+\printbibliography
+% \bibliographystyle{alphaurl}
+% \bibliography{bib}
+
+\end{document}
+
