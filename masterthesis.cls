@@ -46,8 +46,8 @@
 %%                   + all remaining report.cls default options
 
 \DeclareOption{final}{\renewcommand{\degreetext}{
-    MSc  Computer  Science\\
-    \small Data  Science  and  Engineering Curriculum}}
+    Computer Science MSc\\
+    \small Computer Security and Engineering Curriculum}}
 
 \DeclareOption{centerchapter,centrechapter}
    {\renewcommand{\@chapteralignment}{\centering}}
