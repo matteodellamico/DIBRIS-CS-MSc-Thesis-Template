@@ -22,13 +22,13 @@ we can see the thesis as an effort to persuade a skeptical reader that we have d
 a piece of work that is both useful and solid. Whenever you state something, you should give proof:
 either by referencing one or more authoritative documents or proving it yourself.
 Avoid marketing-speak (``our work is poised to revolutionize...'').\footnote{Well, unless you can
-prove what you say. But these statements are mostly impossible to prove\ldots}
+prove what you say. But these statements are mostly impossible to prove\ldots By the
+way, notice that footnotes should be put after punctuation as in this case.}
 
 Don't try to reach a given number of pages. Instead, try to make it
 \emph{complete}, \emph{clear} and \emph{concise}. Try to give all the information that will
 convince the reader that your work is solid and that you have done a good job; use simple
-language and consistent terminology.\footnote{Don't overuse footnotes. By the
-way, notice that they should be put after punctuation as in this case.}
+language and consistent terminology.
 If you can say something more simply, do it. Avoid
 \href{https://en.wikipedia.org/wiki/Weasel_word}{weasel words} and, when you can, the passive voice.
 ``We consider this to be not a security risk'' is much clearer than ``This is not considered a
@@ -40,36 +40,36 @@ on your topic. Try to give them the information they need to understand your wor
 do not lose your reader's time and attention with unnecessary details.
 
 Documents like this generally follow a structure like this one. It is not a strict
-requirement, but it is a good idea to follow it, as readers will find it easier to navigate.
+requirement, but if you follow it readers will likely find it easier to navigate.
 Consider that in scientific documents some readers will not read the whole document,
 but will look for specific pieces of information. A clear structure will help them.
 
-Chapters generally start with a short introduction, where the reader is introduced to the chapter's topic. This is followed by the main content of the chapter, and then by a conclusion
-that summarizes the main points of the chapter. Note that both chapter and section titles are
+Chapters generally start with a short introduction to their topic. This is followed by the main content of the chapter, and then by a conclusion
+that summarizes the main points. Note that both chapter and section titles are
 \href{https://www.grammarly.com/blog/capitalization-in-the-titles/}{capitalized}.
 
-Be extremely wary of large language models (LLMs) like Gemini, ChatGPT or Copilot. You take
-responsibility for the content of your thesis, and declare you have written it yourself.
+Be extremely wary of large language models (LLMs) like Gemini, ChatGPT, or
+Copilot.\footnote{Note that we used the \href{https://en.wikipedia.org/wiki/Serial_comma}{serial comma} here. It's a good idea to use it as it can remove ambiguity from your text.} You take
+responsibility for the content of your thesis and declare you have written it yourself.
 If you want a tool that helps you to write in better English, consider using something like
-\href{https://grammarly.com}{Grammarly}; it is also \href{https://www.overleaf.com/learn/how-to/Use_Grammarly_with_Overleaf}{supported by the Overleaf online \latex editor}.
+\href{https://grammarly.com}{Grammarly}; it is also \href{https://www.overleaf.com/learn/how-to/Use_Grammarly_with_Overleaf}{supported by the Overleaf online \latex editor}.\footnote{Overleaf now has a generative AI option: don't use it as it would violate its \href{https://www.grammarly.com/terms}{terms of service} which, among other things, forbids ``to mislead any third party that any output from Grammarly’s generative AI was solely human generated''.}
 
 \section{Motivation}
 
-The motivation is the first important thing that you should write in your Introduction.
+This is the first important thing you should write in your Introduction.
 You can see it as the effort to convince your reader that the problem you are addressing
-\emph{matters}. You should mention that the problem is unsolved, but you will discuss that at
+\emph{matters}. Mention that the problem is unsolved, but you will discuss that at
 length in the Related Work section (\Cref{sec:related}, in this template). Consider that
-you're facing a skeptical reader who is asking ``is this useful?''.
+you're facing a skeptical reader asking ``is this useful?''.
 
-In some cases it will be obvious why the problem matters, but in other cases, this will be
-one of the most delicate part of your work. Of course, your advisor will help you with this.
+Sometimes it will be obvious why the problem matters, but in other cases, this will be
+one of the most delicate parts of your work. Of course, your advisor will help you with this.
 
 \section{Content of the Thesis}
 
 The other main goal of the Introduction is to give the reader an overview of what they will
 find in the document. There is no concept of ``spoiler'' in scientific documents: summarize
-what the reader will find in every part of the document. This will help them to navigate it
-(and to find what they're interested in, if they are reading the whole document).
+what the reader will find in every chapter. Avoid obvious statements that help nobody such as, for example, ``In the Related Work chapter we discuss relevant pieces of work in the state of the art''; provide synthetic but useful information instead (e.g., ``In \cref{sec:related} we discuss other density-based clustering algorithms and highlight the differences to our approach''). This will help them to navigate it (and to find what they're interested in, if they are reading the whole document).
 
 \section{\latex Tricks}
 
@@ -83,7 +83,7 @@ and avoid spacing problems. Check the source code to see how they are used.
 and \texttt{biber} (or \texttt{bibtex}) the right number of times.
 
 The \href{https://www.overleaf.com}{Overleaf} online editor is a good tool to synchronize with
-your advisor; it exports a git repository so that you can use it both online and offline.
+your advisor; it exports a git repository so you can edit your work online and offline.
 
 %TODO
-Make sure the curriculum in the cover pages matches your own. At the moment you'll have to edit the \texttt{masterthesis.cls} file accordingly, but I plan to eventually provide a class option to facilitate that without the need of editing the \texttt{.cls} file. If you feel like you want to help me with that, please let me know! Unfortunately, you'll get nothing more than gratitude and an acknowledgement here.
+Make sure the curriculum on the cover pages matches your own. Currently, you'll have to edit the \texttt{masterthesis.cls} file accordingly; I plan to eventually provide a class option to facilitate that without the need to edit the \texttt{.cls} file. If you feel like you want to help me with that, please let me know! Unfortunately, you'll get nothing more than gratitude and acknowledgment here.
