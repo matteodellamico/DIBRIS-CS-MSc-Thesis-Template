@@ -76,7 +76,7 @@ what the reader will find in every chapter. Avoid obvious statements that help n
 If you're using \latex to write your document, you can use some tricks to make your life
 easier. This document uses the \verb|\Cref| command to reference sections, figures, and tables conveniently, and \verb|\textcite| and
 \verb|\authorcite| to cite paper authors. You can also use \verb|\xspace| to define your macros
-and avoid spacing problems. Check the source code to see how they are used.
+and avoid spacing problems. Check the source code of this document to see how they are used.
 
 \texttt{rubber} is a good tool to compile \latex documents. You can run the command
 \texttt{rubber -d main} to compile this document to PDF, while running \texttt{pdflatex}
@@ -85,5 +85,8 @@ and \texttt{biber} (or \texttt{bibtex}) the right number of times.
 The \href{https://www.overleaf.com}{Overleaf} online editor is a good tool to synchronize with
 your advisor; it exports a git repository so you can edit your work online and offline.
 
+Your supervisors and reviewers will likely go over your document in several revisions; I'm sure they would really be thankful to you if you used a way to clearly show what changed since their previous pass. \href{https://ctan.org/pkg/latexdiff}{Latexdiff} is a tool to do just that; you can also \href{https://www.overleaf.com/learn/latex/Articles/How_to_use_latexdiff_on_Overleaf}{use it on Overleaf}.
+
 %TODO
 Make sure the curriculum on the cover pages matches your own. Currently, you'll have to edit the \texttt{masterthesis.cls} file accordingly; I plan to eventually provide a class option to facilitate that without the need to edit the \texttt{.cls} file. If you feel like you want to help me with that, please let me know! Unfortunately, you'll get nothing more than gratitude and acknowledgment here.
+
