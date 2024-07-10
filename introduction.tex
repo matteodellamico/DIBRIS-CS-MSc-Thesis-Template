@@ -48,7 +48,9 @@ Chapters generally start with a short introduction to their topic. This is follo
 that summarizes the main points. Note that both chapter and section titles are
 \href{https://www.grammarly.com/blog/capitalization-in-the-titles/}{capitalized}.
 
-Be extremely wary of large language models (LLMs) like Gemini, ChatGPT, or
+Introduce the expanded form of acronyms the first time you use them, excepting only those so common that you can reasonably take for granted for any reader (e.g., CPU).
+
+Be extremely wary of \acp{LLM} like Gemini, ChatGPT, or
 Copilot.\footnote{Note that we used the \href{https://en.wikipedia.org/wiki/Serial_comma}{serial comma} here. It's a good idea to use it as it can remove ambiguity from your text.} You take
 responsibility for the content of your thesis and declare you have written it yourself.
 If you want a tool that helps you to write in better English, consider using something like
@@ -84,6 +86,10 @@ and \texttt{biber} (or \texttt{bibtex}) the right number of times.
 
 The \href{https://www.overleaf.com}{Overleaf} online editor is a good tool to synchronize with
 your advisor; it exports a git repository so you can edit your work online and offline.
+
+To handle acronyms, the \href{https://ctan.org/pkg/acronym}{\texttt{acronym}} package is a good resource to automatically introduce an acronym's expanded form the first time you use it. It is also possible to create an acronyms table; consider using it if you use many acronyms in your paper and you think it may help the reader. Once again, you can have a look at how it's used in the source of this document.
+
+You're likely going to cite several websites in your bibliography. Here's \href{https://tex.stackexchange.com/a/3608}{documentation} on how to do that in both BibTeX and BibLaTeX.
 
 Your supervisors and reviewers will likely go over your document in several revisions; I'm sure they would really be thankful to you if you used a way to clearly show what changed since their previous pass. \href{https://ctan.org/pkg/latexdiff}{Latexdiff} is a tool to do just that; you can also \href{https://www.overleaf.com/learn/latex/Articles/How_to_use_latexdiff_on_Overleaf}{use it on Overleaf}.
 
