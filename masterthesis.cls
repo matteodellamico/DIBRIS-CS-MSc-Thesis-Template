@@ -399,8 +399,8 @@
 \vskip 50\p@
    {\normalsize
    Universit\`a di Genova, DIBRIS \\
-     Via Opera Pia, 13
-     16145 Genova, Italy\\
+     Via Dodecaneso, 35
+     16146 Genova, Italy\\
    \hfill \url{https://www.dibris.unige.it/}}}%
   \vfil\null
   \end{titlepage}%
