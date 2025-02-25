@@ -44,6 +44,12 @@ advisor. Whenever you have a figure or a table, make sure that you refer to it i
 telling, so it has no place in this Chapter). Always use the text (and the caption, if you can
 do it synthetically) to explain what you want the reader to understand from the figure.
 
+If you are using \LaTeX, it will automatically place figures, tables, algorithms, etc. somewhere in the text.
+These parts of the documents are called \emph{floats} because their position floats around depending on \LaTeX's will.
+There are options to advise \LaTeX\ about where floats should be placed. My advice is not to waste too much time on this
+and trust that they will end up in a good place. Generally, write the floats' code before you refer to them: they will
+never be placed before the place they appear in.
+
 For Figures, generally use vectorial formats (e.g., PDF, SVG) where it makes sense if you can.
 They will result in higher-quality images that are in most cases also smaller, leading to
 shorter compiling times and a smaller resulting PDF.
