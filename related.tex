@@ -25,17 +25,17 @@ that here.
 
 \section{Sources}
 
-While doing your review of related work, \href{https://scholar.google.com}{Google Scholar}
+While doing your review of related work, \myhref{https://scholar.google.com}{Google Scholar}
 is probably the easiest search engine for academic papers. You can be mindful of some
 bibliometric tricks to understand which papers are likely to be most influential in the field.
 You can see on Scholar the number of citations of a paper;
-\href{https://portal.core.edu.au/conf-ranks/}{CORE} and
-\href{https://www.scimagojr.com}{Scimago} provide rankings of conferences and journals
+\myhref{https://portal.core.edu.au/conf-ranks/}{CORE} and
+\myhref{https://www.scimagojr.com}{Scimago} provide rankings of conferences and journals
 respectively. Non-peer-reviewed articles like those published only on
-\href{https://arxiv.org}{arXiv} may, of course, be important, but you should be more careful
+\myhref{https://arxiv.org}{arXiv} may, of course, be important, but you should be more careful
 and skeptical about them. In case of doubt, ask guidance to your advisor.
 
-Another tool that you should \emph{use with caution} is \href{https://www.semanticscholar.org/}{Semantic Scholar}. It provides you with \ac{LLM}-based tools to synthesize and ask questions about papers. Always double-check, because \acp{LLM} hallucinate and, as usual, you take responsibility for whatever you write in your document: treat \acp{LLM} as a useful tool you shouldn't trust.
+Another tool that you should \emph{use with caution} is \myhref{https://www.semanticscholar.org/}{Semantic Scholar.} It provides you with \ac{LLM}-based tools to synthesize and ask questions about papers. Always double-check, because \acp{LLM} hallucinate and, as usual, you take responsibility for whatever you write in your document: treat \acp{LLM} as a useful tool you shouldn't trust.
 
 Wikipedia is a great source of information, but you shouldn't consider it as reliable.
 Wikipedia articles should always provide the sources of the information they contain; you
@@ -58,6 +58,8 @@ Here are a few tricks about how to cite other pieces of work:
   NP-complete~\cite{DBLP:conf/coco/Karp72}'' or ``\textcite{DBLP:conf/coco/Karp72} showed
   that the Hamiltonian cycle problem is NP-complete''. Do not write
   ``\cite{DBLP:conf/coco/Karp72} showed that the Hamiltonian cycle problem is NP-complete''. Note, like in this case, that academics pretty much always refer to papers by citing authors names rather than their titles.\footnote{If you use \LaTeX, check the source code for commands to cite paper authors.}
-  \item \href{https://dblp.org}{DBLP} is a good source of quality Bibtex records for papers
+  \item \myhref{https://dblp.org}{DBLP} is a good source of quality Bibtex records for papers
   you may want to cite.
+  \item You may have a doubt about whether to put a link in the text or use a reference in the bibliography. Use a reference if it is a document you want to refer to (even if it's not a text document, like a video or audio), use a link if you just want to refer to something but do not use it as a reference document.
+  \item If you decide to leave links, make it so that they're usable even in printed form. The \verb|\myhref| command of this document can be an example of how to do it.
 \end{itemize}

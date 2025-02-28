@@ -30,7 +30,7 @@ Do not try to reach a given number of pages. Instead, try to make it
 convince the reader that your work is solid and that you have done a good job; use simple
 language and consistent terminology.
 If you can say something more simply, do it. Avoid
-\href{https://en.wikipedia.org/wiki/Weasel_word}{weasel words} and, when you can, the passive voice.
+\myhref{https://en.wikipedia.org/wiki/Weasel_word}{weasel words} and, when you can, the passive voice.
 ``We consider this to be not a security risk'' is much clearer than ``This is not considered a
 security risk'' because it makes it explicit who makes the claim, and takes the responsibility for
 it.
@@ -46,17 +46,17 @@ but will look for specific pieces of information. A clear structure will help th
 
 Chapters generally start with a short introduction to their topic. This is followed by the main content of the chapter, and then by a conclusion
 that summarizes the main points. Note that both chapter and section titles are
-\href{https://www.grammarly.com/blog/capitalization-in-the-titles/}{capitalized}.
+\myhref{https://www.grammarly.com/blog/capitalization-in-the-titles/}{capitalized.}
 
 Introduce the expanded form of acronyms the first time you use them, excepting only those so common that you can reasonably take for granted for any reader (e.g., CPU or PDF).
 
-For this document, you should use formal writing. \href{https://www.grammarly.com/blog/contractions/}{Do not use contraptions} such as \emph{don't} or \emph{it's}.
+For this document, you should use formal writing. \myhref{https://www.grammarly.com/blog/contractions/}{Do not use contraptions} such as \emph{don't} or \emph{it's}.
 
 Be extremely wary of \acp{LLM} like Gemini, ChatGPT, or
-Copilot.\footnote{Note that we used the \href{https://en.wikipedia.org/wiki/Serial_comma}{serial comma} here. It is a good idea to use it as it can remove ambiguity from your text.} You take
+Copilot.\footnote{Note that we used the serial comma (\url{https://en.wikipedia.org/wiki/Serial_comma}) here. It is a good idea to use it as it can remove ambiguity from your text.} You take
 responsibility for the content of your thesis and declare you have written it yourself.
 If you want a tool that helps you to write in better English, consider using something like
-\href{https://grammarly.com}{Grammarly}; it is also \href{https://www.overleaf.com/learn/how-to/Use_Grammarly_with_Overleaf}{supported by the Overleaf online \latex editor}.\footnote{Overleaf now has a generative AI option: do not use it as it would violate its \href{https://www.grammarly.com/terms}{terms of service} which, among other things, forbids ``to mislead any third party that any output from Grammarly’s generative AI was solely human generated''.}
+\myhref{https://grammarly.com}{Grammarly}; it is also \myhref{https://www.overleaf.com/learn/how-to/Use_Grammarly_with_Overleaf}{supported by the Overleaf online \latex editor.} Note that Overleaf now has a generative AI option: do not use it as it would violate its \myhref{https://www.grammarly.com/terms}{terms of service} which, among other things, forbids ``to mislead any third party that any output from Grammarly’s generative AI was solely human generated''.
 
 \section{Motivation}
 
@@ -91,14 +91,14 @@ and avoid spacing problems. Check the source code of this document to see how th
 \texttt{rubber -d main} to compile this document to PDF, while running \texttt{pdflatex}
 and \texttt{biber} (or \texttt{bibtex}) the right number of times.
 
-The \href{https://www.overleaf.com}{Overleaf} online editor is a good tool to synchronize with
+The \myhref{https://www.overleaf.com}{Overleaf} online editor is a good tool to synchronize with
 your advisor; it exports a git repository so you can edit your work online and offline.
 
-To handle acronyms, the \href{https://ctan.org/pkg/acronym}{\texttt{acronym}} package is a good resource to automatically introduce an acronym's expanded form the first time you use it. It is also possible to create an acronyms table; consider using it if you use many acronyms in your paper and you think it may help the reader. Once again, you can have a look at how it's used in the source of this document.
+To handle acronyms, the \myhref{https://ctan.org/pkg/acronym}{\texttt{acronym}} package is a good resource to automatically introduce an acronym's expanded form the first time you use it. It is also possible to create an acronyms table; consider using it if you use many acronyms in your paper and you think it may help the reader. Once again, you can have a look at how it's used in the source of this document.
 
-You are likely going to cite several websites in your bibliography. Here is \href{https://bibtex.eu/faq/how-can-i-use-bibtex-to-cite-a-website/}{documentation} on how to do that in both BibTeX and BibLaTeX. You may want to use a reference management software like \href{https://www.zotero.org/}{Zotero} or \href{https://www.mendeley.com/}{Mendeley} to handle your bibliography database.
+You are likely going to cite several websites in your bibliography. Here is \myhref{https://bibtex.eu/faq/how-can-i-use-bibtex-to-cite-a-website/}{documentation} on how to do that in both BibTeX and BibLaTeX. You may want to use a reference management software like \myhref{https://www.zotero.org/}{Zotero} or \myhref{https://www.mendeley.com/}{Mendeley} to handle your bibliography database.
 
-Your supervisors and reviewers will likely go over your document in several revisions; I'm sure they would really be thankful to you if you used a way to clearly show what changed since their previous pass. \href{https://ctan.org/pkg/latexdiff}{Latexdiff} is a tool to do just that; you can also \href{https://www.overleaf.com/learn/latex/Articles/How_to_use_latexdiff_on_Overleaf}{use it on Overleaf}.
+Your supervisors and reviewers will likely go over your document in several revisions; I'm sure they would really be thankful to you if you used a way to clearly show what changed since their previous pass. \myhref{https://ctan.org/pkg/latexdiff}{Latexdiff} is a tool to do just that; you can also \myhref{https://www.overleaf.com/learn/latex/Articles/How_to_use_latexdiff_on_Overleaf}{use it on Overleaf}.
 
 %TODO
 \textbf{IMPORTANT: Make sure the curriculum on the cover pages and the department address matches your own.} Currently, you'll have to edit the \texttt{masterthesis.cls} file accordingly; I plan to eventually provide a class option to facilitate that without the need to edit the \texttt{.cls} file. If you feel like you want to help me with that, please let me know! You'll get gratitude and an acknowledgment here.
