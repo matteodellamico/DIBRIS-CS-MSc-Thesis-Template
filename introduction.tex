@@ -97,7 +97,11 @@ To handle acronyms, the \myhref{https://ctan.org/pkg/acronym}{\texttt{acronym}} 
 
 You are likely going to cite several websites in your bibliography. Here is \myhref{https://bibtex.eu/faq/how-can-i-use-bibtex-to-cite-a-website/}{documentation} on how to do that in both BibTeX and BibLaTeX. You may want to use a reference management software like \myhref{https://www.zotero.org/}{Zotero} or \myhref{https://www.mendeley.com/}{Mendeley} to handle your bibliography database.
 
-Your supervisors and reviewers will likely go over your document in several revisions; I'm sure they would really be thankful to you if you used a way to clearly show what changed since their previous pass. \myhref{https://ctan.org/pkg/latexdiff}{Latexdiff} is a tool to do just that; you can also \myhref{https://www.overleaf.com/learn/latex/Articles/How_to_use_latexdiff_on_Overleaf}{use it on Overleaf}.
+Your supervisors and reviewers will likely go over your document in several revisions; I'm sure they would really be thankful to you if you used a way to clearly show what changed since their previous pass. \myhref{https://ctan.org/pkg/latexdiff}{Latexdiff} is a tool to do just that; you can also \myhref{https://www.overleaf.com/learn/latex/Articles/How_to_use_latexdiff_on_Overleaf}{use it on Overleaf}. Another possibility is tracking the changes on the PDF output, using tools like \myhref{https://www.draftable.com/}{Draftable}.
+
+Advisors may have very different preferences in how to share feedback. A possibility is the \myhref{https://tug.ctan.org/macros/latex/contrib/todonotes/todonotes.pdf}{\texttt{todonotes}} package. This document's \texttt{preamble.tex} source file shows an example of using it to include comments; note that they can be removed from the PDF output by passing the \texttt{final} option to the document class (i.e., \verb|\documentclass[final]{masterthesis}| in the main \texttt{tex} file.
+
+\md{This is an example of a note using \texttt{todonotes}.}
 
 %TODO
 \textbf{IMPORTANT: Make sure the curriculum on the cover pages and the department address matches your own.} Currently, you'll have to edit the \texttt{masterthesis.cls} file accordingly; I plan to eventually provide a class option to facilitate that without the need to edit the \texttt{.cls} file. If you feel like you want to help me with that, please let me know! You'll get gratitude and an acknowledgment here.
