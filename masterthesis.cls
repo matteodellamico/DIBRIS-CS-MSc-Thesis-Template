@@ -390,7 +390,7 @@
    \vfill
 
    {\large
-    Master Thesis  %%\hfill {\bfseries DIBRIS-TH-\@submityear-\@technumber}
+    Master's Thesis  %%\hfill {\bfseries DIBRIS-TH-\@submityear-\@technumber}
     %%%Technical Reports Series \hfill {\bf DISI-TR-\@submityear-\@technumber}
    }
    %\hrulefill
