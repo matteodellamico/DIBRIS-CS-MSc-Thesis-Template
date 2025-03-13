@@ -1,8 +1,8 @@
 \chapter{Introduction}
 \label{ch:introduction}
 
-This is a template for the Computer Science Master Theses at \ac{DIBRIS},
-University of Genoa. It uses the \xspace{\LaTeX} class \texttt{masterthesis.cls} by
+This is a template for the Computer Science Master Theses at \myhref{https://dibris.unige.it}{\ac{DIBRIS}, University of Genoa.}
+It uses the \xspace{\LaTeX} class \texttt{masterthesis.cls} by
 Davide Ancona. We will use this template to discuss what is generally expected in the
 structure of a Master's Thesis. While reading academic documents, you will find that
 they generally follow a similar structure.
@@ -63,7 +63,7 @@ If you want a tool that helps you to write in better English, consider using som
 This is the first important thing you should write in your Introduction.
 You can see it as the effort to convince your reader that the problem you are addressing
 \emph{matters}. Mention that the problem is unsolved, but you will discuss that at
-length in the Related Work section (\Cref{ch:related}, in this template). Consider that
+%length in the \fullref{ch:related}. Consider that
 you're facing a skeptical reader asking ``is this useful?''.
 
 Sometimes it will be obvious why the problem matters, but in other cases, this will be
@@ -82,7 +82,9 @@ one should understand the key concepts of your work. The rest of the document
 \section{\latex Tricks}
 
 If you're using \latex to write your document, you can use some tricks to make your life
-easier. This document uses the \verb|\Cref| command to conveniently reference sections, figures, and tables, and \verb|\textcite| and
+easier. This document uses the \verb|\Cref|%
+\footnote{I also created a \texttt{\textbackslash fullref} to generate text like ``\fullref{ch:introduction}''. Check the source if you are interested.}
+command to conveniently reference sections, figures, and tables, and \verb|\textcite| and
 \verb|\authorcite| to cite paper authors. You can also use \verb|\xspace| to define your macros
 and avoid spacing problems. Check the source code of this document to see how they are used.
 
